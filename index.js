@@ -145,11 +145,11 @@ var event = new function(){
 		if(モード == 1) {
 		
 			$('#game-text').html("<span style='font-size : 300%;color : red;'>問題！</span><br>" + "<span style='font-size : 750%;'>" + event.熟語一覧[index][0] + "</span>");
-			$('#answer').html("<span style='font-size : 250%;'>" + event.熟語一覧[index][1] + "<br>" + event.熟語一覧[index][2] + "</span>");
+			$('#answer').html("<span style='font-size : 400%;color : red;'>" + event.熟語一覧[index][1] + "</span><br><span style='font-size : 200%;'>" + event.熟語一覧[index][2] + "</span>");
 			
 		} else {
 			$('#game-text').html("<span style='font-size : 300%;color : red;'>問題！</span><br>" + "<span style='font-size : 250%;'>" + event.熟語一覧[index][2] + "</span>");		
-			$('#answer').html("<span style='font-size : 500%;'>" + event.熟語一覧[index][0] + "<br>" + event.熟語一覧[index][1] + "</span>");
+			$('#answer').html("<span style='font-size : 500%;color : red;'>" + event.熟語一覧[index][0] + "</span><br><span style='font-size : 300%;'>" + event.熟語一覧[index][1] + "</span>");
 			
 		}
 		
