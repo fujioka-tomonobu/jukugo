@@ -76,7 +76,7 @@ var event = new function(){
 	 */
 	this.mondai1 = function(){
 		event.startMusic();
-		一問時間 = 10 * 1000;
+		一問時間 = 8 * 1000;
 		モード = 1;
 		event.countDown();
 	};
